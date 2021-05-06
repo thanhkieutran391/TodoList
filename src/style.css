@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none ;
+}
+body {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(
+    90deg,
+    pink ,
+    rgb(245, 184, 255) 100%,
+    rgb(230, 147, 241) 100%
+  );
+  }
+  
+  .container {
+    width: 500px;
+    margin:  50px ;
+    background: #eee;
+    border-radius: 8px ;
+    padding: 20px ;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+    
+    
+  }
+  .container h2{
+    display: flex;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+    color:rgb(141, 69, 69);
+  }
+form{
+    display: flex;
+    justify-content: center;
+    
+}
